@@ -6,13 +6,20 @@ Repositório com documentação dos meus laboratórios práticos do **INE (Certi
 ## 🚀 Estrutura  
 /INE-Labs
 ├── Writeups/ # Relatórios detalhados
+
 │ ├── Host-Discovery.md # Nmap, Ping Sweep
+
 │ └── Web-Exploitation.md # SQLi, Upload de Arquivos
 ├── Cheat-Sheets/ # Comandos rápidos
+
 │ ├── Recon.md # Nmap, DNS, WhoIs
+
 │ └── PrivEsc.md # Escalonamento (Linux/Windows)
+
 └── Scripts/ # Ferramentas de automação
+
 ├── nmap_scan.sh # Varredura automatizada
+
 └── http_enum.py # Enumeração web
 
 ## 🔧 Técnicas Abordadas  
@@ -23,4 +30,4 @@ Repositório com documentação dos meus laboratórios práticos do **INE (Certi
 ## 📜 Licença  
 MIT License - Livre para uso, modificação e compartilhamento.  
 
-*Leia em [inglês](/EN/README.md).* 
+*Leia em [inglês](/EN/README.md) [![EN](https://img.shields.io/badge/🌐-English-blue)](./EN/README.md) .* 
