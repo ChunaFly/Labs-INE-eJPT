@@ -3,6 +3,7 @@
 ## 📌 About  
 Repository documenting my practical labs from the **INE eJPT Certification Path**, including write-ups, scripts, and cheat sheets.
 
+```
 /INE-Labs
 ├── Writeups/ # Detailed step-by-step reports
 │ ├── Host-Discovery.md # Nmap, Ping Sweep
@@ -13,6 +14,7 @@ Repository documenting my practical labs from the **INE eJPT Certification Path*
 └── Scripts/ # Automation tools
 ├── nmap_scan.sh # Automated scanning
 └── http_enum.py # Web enumeration
+```
 
 ## 🔧 Techniques Covered  
 - **Network Scanning**: `Nmap`, `Ping Sweep`.  
