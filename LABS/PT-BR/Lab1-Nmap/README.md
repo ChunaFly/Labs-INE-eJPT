@@ -7,7 +7,7 @@ Identificar hosts ativos e serviços em execução na rede `demo.ine.local`, sim
 
 ### 1. Teste Inicial com Ping
 ```bash
-ping -c 4 demo.ine.local
+ping -c 5 demo.ine.local
 ```
 - **Resultado**: 
   - Nenhum host respondendo (possível bloqueio de ICMP).
