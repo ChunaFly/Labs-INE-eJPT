@@ -22,4 +22,4 @@ Repository documenting my practical labs from the **INE eJPT Certification Path*
 ## 📜 License  
 MIT License - Free to use, modify, and share.  
 
-*Read in [![PT-BR](https://img.shields.io/badge/🇧🇷-Português-green)](./PT-BR/README.md)* 
+*Read in [inglês](/EN/README.md) [![PT-BR](https://img.shields.io/badge/🇧🇷-Português-green)](./PT-BR/README.md)* 
