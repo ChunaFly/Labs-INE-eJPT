@@ -3,24 +3,19 @@
 ## 📌 Sobre  
 Repositório com documentação dos meus laboratórios práticos do **INE (Certificação eJPT)**, incluindo write-ups, scripts e referências rápidas.
 
-## 🚀 Estrutura  
+## 🚀 Estrutura 
+```
 /INE-Labs
 ├── Writeups/ # Relatórios detalhados
-
 │ ├── Host-Discovery.md # Nmap, Ping Sweep
-
 │ └── Web-Exploitation.md # SQLi, Upload de Arquivos
 ├── Cheat-Sheets/ # Comandos rápidos
-
 │ ├── Recon.md # Nmap, DNS, WhoIs
-
 │ └── PrivEsc.md # Escalonamento (Linux/Windows)
-
 └── Scripts/ # Ferramentas de automação
-
 ├── nmap_scan.sh # Varredura automatizada
-
 └── http_enum.py # Enumeração web
+```
 
 ## 🔧 Técnicas Abordadas  
 - **Varredura de Rede**: `Nmap`, `Ping Sweep`.  
