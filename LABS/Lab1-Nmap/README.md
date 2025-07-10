@@ -8,7 +8,7 @@ Identify active hosts and running services on `demo.ine.local` network, simulati
 
 ### 1. Initial Ping Test
 ```bash
-ping -c 4 demo.ine.local
+ping -c 5 demo.ine.local
 ```
 - **Results**: 
   - No host response (ICMP blocking detected).
@@ -67,4 +67,4 @@ nmap -Pn -sV -sC -O demo.ine.local
 - [NIST - CVE-2014-6287 Detail](https://nvd.nist.gov/vuln/detail/CVE-2014-6287)
 
 ---  
-> `[![Nmap](https://img.shields.io/badge/Nmap-5.0%2B-brightgreen)](https://nmap.org)`
+`[![Nmap](https://img.shields.io/badge/Nmap-5.0%2B-brightgreen)](https://nmap.org)`
