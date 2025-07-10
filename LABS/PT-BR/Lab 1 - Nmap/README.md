@@ -10,7 +10,7 @@ Identificar hosts ativos e serviços em execução na rede `demo.ine.local`, sim
 ping -c 4 demo.ine.local
 ```
 - **Resultado**: 
-  - Nenhum host respondendo (bloqueio de ICMP).
+  - Nenhum host respondendo (possível bloqueio de ICMP).
   - ![Falha no ping](Images/INE/ping_scan.png)  
   *Figura 1: Falha no ping devido a filtro ICMP*
 
@@ -26,7 +26,7 @@ nmap demo.ine.local
 nmap -Pn demo.ine.local
 ```
 - **Resultado**: 
-  - 3 portas abertas (22/SSH, 80/HTTP, 443/HTTPS).
+  - 7 portas abertas (80/HTTP, 135/msrpc, 139/netbios-ssn, 445/micrsoft-ds, 3389/ms-wbt-server, 49154/desconhecido e 49155/desconhecido).
   - ![Resultado do scan -Pn](Images/INE/nmap_pn_scan.png)  
   *Figura 2: Scan com -Pn revelando portas abertas*
 
@@ -36,15 +36,19 @@ nmap -Pn -sV demo.ine.local
 ```
 - **Resultado**: 
   - Serviços identificados:
-    - Apache 2.4.7 (CVE-2020-11984)
-    - OpenSSH 7.4
+    - 80 / HttpFileServer httpd 2.3
+    - 135 / Microsoft Windows RPC
+    - 139 / Microsoft Windows netbios-sn
+    - 445 / Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+    - 49154 / Microsoft Windows RPC
+    - 49155 / Microsoft Windows RPC
+      Sistema Operacional: Windows Server 2008 R2 - 2012
   - ![Detecção de versões](Images/INE/nmap_sv_results.png)  
   *Figura 3: Versões de serviços detectadas*
 
 ## Conclusão
 - O bloqueio de ICMP não indica host offline. A flag `-Pn` do Nmap contorna essa limitação.
-- A enumeração de serviços (`-sV`) revelou versões vulneráveis (ex: Apache 2.4.7).
-- **Próximos passos**: Testar vulnerabilidades com `--script vuln` ou Metasploit.
+- A enumeração de serviços (`-sV`) revelou versões vulneráveis (Http File Server 2.3 - CVE-2014-6287 Detail).
 
 ## Comandos Úteis
 ```bash
@@ -57,4 +61,4 @@ nmap -Pn -sV -sC -O demo.ine.local
 
 ## Referências
 - [Nmap Documentation](https://nmap.org/book/man.html)
-- [MITRE ATT&CK: Discovery](https://attack.mitre.org/tactics/TA0007/)
+- [NIST](https://nvd.nist.gov/vuln/detail/CVE-2014-6287)
