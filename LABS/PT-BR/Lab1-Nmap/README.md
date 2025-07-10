@@ -11,7 +11,7 @@ ping -c 4 demo.ine.local
 ```
 - **Resultado**: 
   - Nenhum host respondendo (possível bloqueio de ICMP).
-  - ![Falha no ping](LABS/PT-BR/Lab1-Nmap/Screenshots/ping_scan.png)  
+  - ![Falha no ping](Screenshots/ping_scan.png)  
   *Figura 1: Falha no ping devido a filtro ICMP*
 
 ### 2. Escaneamento Básico com Nmap
@@ -20,7 +20,7 @@ nmap demo.ine.local
 ```
 - **Resultado**: 
   - Falso negativo (sem flag `-Pn`).
-  - ![Resultado do scan sem -Pn](LABS/PT-BR/Lab1-Nmap/Screenshots/nmap_initial.png)
+  - ![Resultado do scan sem -Pn](Screenshots/nmap_initial.png)
 
 ### 3. Escaneamento com Ignorar Status de Host (`-Pn`)
 ```bash
@@ -28,7 +28,7 @@ nmap -Pn demo.ine.local
 ```
 - **Resultado**: 
   - 7 portas abertas (80/HTTP, 135/msrpc, 139/netbios-ssn, 445/micrsoft-ds, 3389/ms-wbt-server, 49154/desconhecido e 49155/desconhecido).
-  - ![Resultado do scan -Pn](LABS/PT-BR/Lab1-Nmap/Screenshots/nmap_pn_scan.png)  
+  - ![Resultado do scan -Pn](Screenshots/nmap_pn_scan.png)  
   *Figura 2: Scan com -Pn revelando portas abertas*
 
 ### 4. Detecção de Versões de Serviços (`-sV`)
@@ -44,7 +44,7 @@ nmap -Pn -sV demo.ine.local
     - 49154 / Microsoft Windows RPC
     - 49155 / Microsoft Windows RPC
       Sistema Operacional: Windows Server 2008 R2 - 2012
-  - ![Detecção de versões](LABS/PT-BR/Lab1-Nmap/Screenshots/nmap_sv_results.png)  
+  - ![Detecção de versões](Screenshots/nmap_sv_results.png)  
   *Figura 3: Versões de serviços detectadas*
 
 ## Conclusão
