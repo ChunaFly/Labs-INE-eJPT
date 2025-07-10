@@ -5,8 +5,8 @@
 🔍 Technical documentation repository for eJPT certification and offensive security studies.
 
 ## 🌐 Idiomas / Languages  
-- [Português (PT-BR)](/PT-BR/README.md)  [![PT-BR](https://img.shields.io/badge/🇧🇷-Português-brightgreen)](PT-BR/README.md)
-- [English (EN)](/EN/README.md)  [![EN](https://img.shields.io/badge/🌐-English-blue)](EN/README.md)
+- [Português (PT-BR)](LABS/PT-BR/README.md)  [![PT-BR](https://img.shields.io/badge/🇧🇷-Português-brightgreen)](LABS/PT-BR/README.md)
+- [English (EN)](LABS/EN/README.md)  [![EN](https://img.shields.io/badge/🌐-English-blue)](LABS/EN/README.md)
 
 ## 📜 Licença / License  
 MIT License - Livre para uso e modificação. / Free to use and modify.
