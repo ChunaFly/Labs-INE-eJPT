@@ -21,6 +21,7 @@ nmap demo.ine.local
 - **Resultado**: 
   - Falso negativo (sem flag `-Pn`).
   - ![Resultado do scan sem -Pn](Screenshots/nmap_initial.png)
+  *Figura 2: Scan sem -Pn ainda mostra o host offline*
 
 ### 3. Escaneamento com Ignorar Status de Host (`-Pn`)
 ```bash
@@ -29,7 +30,7 @@ nmap -Pn demo.ine.local
 - **Resultado**: 
   - 7 portas abertas (80/HTTP, 135/msrpc, 139/netbios-ssn, 445/micrsoft-ds, 3389/ms-wbt-server, 49154/desconhecido e 49155/desconhecido).
   - ![Resultado do scan -Pn](Screenshots/nmap_pn_scan.png)  
-  *Figura 2: Scan com -Pn revelando portas abertas*
+  *Figura 3: Scan com -Pn revelando portas abertas*
 
 ### 4. Detecção de Versões de Serviços (`-sV`)
 ```bash
@@ -45,7 +46,7 @@ nmap -Pn -sV demo.ine.local
     - 49155 / Microsoft Windows RPC
       Sistema Operacional: Windows Server 2008 R2 - 2012
   - ![Detecção de versões](Screenshots/nmap_sv_results.png)  
-  *Figura 3: Versões de serviços detectadas*
+  *Figura 4: Versões de serviços detectadas*
 
 ## Conclusão
 - O bloqueio de ICMP não indica host offline. A flag `-Pn` do Nmap contorna essa limitação.
