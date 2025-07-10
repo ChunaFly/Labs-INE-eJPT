@@ -65,6 +65,3 @@ nmap -Pn -sV -sC -O demo.ine.local
 ## References
 - [Nmap Official Documentation](https://nmap.org/book/man.html)
 - [NIST - CVE-2014-6287 Detail](https://nvd.nist.gov/vuln/detail/CVE-2014-6287)
-
----  
-`[![Nmap](https://img.shields.io/badge/Nmap-5.0%2B-brightgreen)](https://nmap.org)`
