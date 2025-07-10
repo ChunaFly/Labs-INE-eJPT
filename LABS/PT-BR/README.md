@@ -20,8 +20,8 @@ Repositório com documentação dos meus laboratórios práticos do **INE (Certi
 
 ## 🔧 Técnicas Abordadas  
 - **Varredura de Rede**: `Nmap`, `Ping Sweep`.  
-- **Exploração Web**: `SQL Injection`, `File Inclusion`.  
-- **Pós-Exploração**: `Escalonamento de Privilégios`, `Pivoting`.  
+- **Exploração Web**: `SQL Injection`, `File Inclusion`.  *Em andamento*
+- **Pós-Exploração**: `Escalonamento de Privilégios`, `Pivoting`.  *Em andamento*
 
 ## 📜 Licença  
 MIT License - Livre para uso, modificação e compartilhamento.  
