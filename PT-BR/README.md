@@ -15,8 +15,6 @@ Repositório com documentação dos meus laboratórios práticos do **INE (Certi
 ├── nmap_scan.sh # Varredura automatizada
 └── http_enum.py # Enumeração web
 
-text
-
 ## 🔧 Técnicas Abordadas  
 - **Varredura de Rede**: `Nmap`, `Ping Sweep`.  
 - **Exploração Web**: `SQL Injection`, `File Inclusion`.  
