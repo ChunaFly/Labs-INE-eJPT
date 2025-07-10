@@ -26,4 +26,4 @@ Repositório com documentação dos meus laboratórios práticos do **INE (Certi
 ## 📜 Licença  
 MIT License - Livre para uso, modificação e compartilhamento.  
 
-*Leia em [inglês](/EN/README.md) [![EN](https://img.shields.io/badge/🌐-English-blue)](./EN/README.md) .* 
+*Leia em [inglês](../EN/README.md) [![EN](https://img.shields.io/badge/🌐-English-blue)](../EN/README.md) .* 
