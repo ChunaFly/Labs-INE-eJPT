@@ -105,7 +105,7 @@ Verification: Always use show options before execution to confirm parameters
 
 Meterpreter session opened with web service privileges.
 
-![](Screenshots/run_exploit.png)
+![](Screenshots/exploit_run.png)
 
 *Figure 6: Exploit sent successfully. Meterpreter session initiated.*
 
